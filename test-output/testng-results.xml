@@ -2,52 +2,52 @@
 <testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-10-27T11:24:46 IST" name="Default suite" finished-at="2023-10-27T11:25:28 IST" duration-ms="42118">
+  <suite started-at="2023-10-27T11:52:25 IST" name="Suite" finished-at="2023-10-27T11:53:39 IST" duration-ms="74370">
     <groups>
     </groups>
-    <test started-at="2023-10-27T11:24:46 IST" name="Default test" finished-at="2023-10-27T11:25:28 IST" duration-ms="42118">
+    <test started-at="2023-10-27T11:52:25 IST" name="Test" finished-at="2023-10-27T11:53:39 IST" duration-ms="74370">
       <class name="testcases.SignUpHandle">
-        <test-method is-config="true" signature="launchURL()[pri:0, instance:testcases.SignUpHandle@747ddf94]" started-at="2023-10-27T11:24:46 IST" name="launchURL" finished-at="2023-10-27T11:25:08 IST" duration-ms="22338" status="PASS">
+        <test-method is-config="true" signature="launchURL()[pri:0, instance:testcases.SignUpHandle@2f9f7dcf]" started-at="2023-10-27T11:52:25 IST" name="launchURL" finished-at="2023-10-27T11:53:20 IST" duration-ms="54911" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchURL -->
-        <test-method signature="signUpLinkClick()[pri:1, instance:testcases.SignUpHandle@747ddf94]" started-at="2023-10-27T11:25:08 IST" name="signUpLinkClick" finished-at="2023-10-27T11:25:10 IST" duration-ms="2125" status="PASS">
+        <test-method signature="signUpLinkClick()[pri:1, instance:testcases.SignUpHandle@2f9f7dcf]" started-at="2023-10-27T11:53:20 IST" name="signUpLinkClick" finished-at="2023-10-27T11:53:22 IST" duration-ms="2132" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signUpLinkClick -->
-        <test-method signature="enterUsername()[pri:2, instance:testcases.SignUpHandle@747ddf94]" started-at="2023-10-27T11:25:10 IST" name="enterUsername" finished-at="2023-10-27T11:25:13 IST" duration-ms="2175" status="PASS">
+        <test-method signature="enterUsername()[pri:2, instance:testcases.SignUpHandle@2f9f7dcf]" started-at="2023-10-27T11:53:22 IST" name="enterUsername" finished-at="2023-10-27T11:53:24 IST" duration-ms="2195" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enterUsername -->
-        <test-method signature="enterFullname()[pri:3, instance:testcases.SignUpHandle@747ddf94]" started-at="2023-10-27T11:25:13 IST" name="enterFullname" finished-at="2023-10-27T11:25:15 IST" duration-ms="2258" status="PASS">
+        <test-method signature="enterFullname()[pri:3, instance:testcases.SignUpHandle@2f9f7dcf]" started-at="2023-10-27T11:53:24 IST" name="enterFullname" finished-at="2023-10-27T11:53:26 IST" duration-ms="2183" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enterFullname -->
-        <test-method signature="enterEmail()[pri:4, instance:testcases.SignUpHandle@747ddf94]" started-at="2023-10-27T11:25:15 IST" name="enterEmail" finished-at="2023-10-27T11:25:17 IST" duration-ms="2226" status="PASS">
+        <test-method signature="enterEmail()[pri:4, instance:testcases.SignUpHandle@2f9f7dcf]" started-at="2023-10-27T11:53:26 IST" name="enterEmail" finished-at="2023-10-27T11:53:28 IST" duration-ms="2166" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enterEmail -->
-        <test-method signature="enterPassword()[pri:5, instance:testcases.SignUpHandle@747ddf94]" started-at="2023-10-27T11:25:17 IST" name="enterPassword" finished-at="2023-10-27T11:25:19 IST" duration-ms="2230" status="PASS">
+        <test-method signature="enterPassword()[pri:5, instance:testcases.SignUpHandle@2f9f7dcf]" started-at="2023-10-27T11:53:28 IST" name="enterPassword" finished-at="2023-10-27T11:53:31 IST" duration-ms="2168" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enterPassword -->
-        <test-method signature="enterPhoneNumber()[pri:6, instance:testcases.SignUpHandle@747ddf94]" started-at="2023-10-27T11:25:19 IST" name="enterPhoneNumber" finished-at="2023-10-27T11:25:22 IST" duration-ms="2202" status="PASS">
+        <test-method signature="enterPhoneNumber()[pri:6, instance:testcases.SignUpHandle@2f9f7dcf]" started-at="2023-10-27T11:53:31 IST" name="enterPhoneNumber" finished-at="2023-10-27T11:53:33 IST" duration-ms="2166" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enterPhoneNumber -->
-        <test-method signature="clickOnTerms()[pri:7, instance:testcases.SignUpHandle@747ddf94]" started-at="2023-10-27T11:25:22 IST" name="clickOnTerms" finished-at="2023-10-27T11:25:24 IST" duration-ms="2111" status="PASS">
+        <test-method signature="clickOnTerms()[pri:7, instance:testcases.SignUpHandle@2f9f7dcf]" started-at="2023-10-27T11:53:33 IST" name="clickOnTerms" finished-at="2023-10-27T11:53:35 IST" duration-ms="2102" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickOnTerms -->
-        <test-method signature="clickOnSignUpButton()[pri:8, instance:testcases.SignUpHandle@747ddf94]" started-at="2023-10-27T11:25:24 IST" name="clickOnSignUpButton" finished-at="2023-10-27T11:25:26 IST" duration-ms="2116" status="PASS">
+        <test-method signature="clickOnSignUpButton()[pri:8, instance:testcases.SignUpHandle@2f9f7dcf]" started-at="2023-10-27T11:53:35 IST" name="clickOnSignUpButton" finished-at="2023-10-27T11:53:37 IST" duration-ms="2076" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickOnSignUpButton -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.SignUpHandle@747ddf94]" started-at="2023-10-27T11:25:26 IST" name="tearDown" finished-at="2023-10-27T11:25:28 IST" duration-ms="2257" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.SignUpHandle@2f9f7dcf]" started-at="2023-10-27T11:53:37 IST" name="tearDown" finished-at="2023-10-27T11:53:39 IST" duration-ms="2195" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testcases.SignUpHandle -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

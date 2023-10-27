@@ -14,11 +14,11 @@ import org.testng.annotations.Test;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class SignUpHandle {
-	String str1 = "p";
-	String str2 = "Prathamesh2Dhasade";
-	String str3 = "prat78";
-	String str4 = "Pratham";
-	String str5 = "l834530434";
+	String str1 = "prat_dh456";
+	String str2 = "Prathamesh Dhasade";
+	String str3 = "prat78@gmail.com";
+	String str4 = "Pratham@2244";
+	String str5 = "p834530434";
 	public WebDriver driver;
 
 	@BeforeClass
@@ -49,6 +49,7 @@ public class SignUpHandle {
 		} else {
 			WebElement errorUserName = driver.findElement(By.xpath("(//div[@class='signup__label'])[1]"));
 			System.out.println(errorUserName.getText());
+			System.out.println("Invalid Username\n");
 		}
 		Thread.sleep(2000);
 	}

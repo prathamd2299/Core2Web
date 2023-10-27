@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="testcases.SignUpHandle">
+        <methods>
+          <include name="launchURL"/>
+          <include name="tearDown"/>
+          <include name="enterPassword"/>
+          <include name="signUpLinkClick"/>
+          <include name="enterUsername"/>
+          <include name="clickOnSignUpButton"/>
+          <include name="enterEmail"/>
+          <include name="enterPhoneNumber"/>
+          <include name="clickOnTerms"/>
+          <include name="enterFullname"/>
+        </methods>
+      </class> <!-- testcases.SignUpHandle -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
